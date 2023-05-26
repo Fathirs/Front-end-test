@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* ALL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+/* CONTAINER*/
+.container {
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    width: 375px;
+    height: 667px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+/* HEADER NAVIGATION*/
+.Header {
+    background: #002984;
+    position: absolute;
+    width: 375px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.text-nav-changePhoto {
+    white-space:nowrap;
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 53px;
+    top: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+.text-nav-profile {
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 53px;
+    top: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+.text-nav-ambilFoto {
+    white-space:nowrap;
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 53px;
+    top: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+.left-circle-arrow{
+    padding-left: 15px;
+    padding-top: 16px;
+}
+
+
+/* Content*/
+
+.name{
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 87px;
+    top: 72px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.classes {
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 87px;
+    top: 92px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+
+.icon-camera{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.icon-photo {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 15px;
+    top: 72px;
+    background: #E0E0E0;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+.profile-photo {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 15px;
+    top: 72px;
+    background: url("image/user-sm.png");
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+    padding-top: 16;
+}
+
+
+/* Rectangle*/
+
+.sm-rectangle-1 {
+    position: absolute;
+    width: 341px;
+    height: 196px;
+    left: 17px;
+    top: 144px;
+    font-size: 16px;
+    background: #002984;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.sm-rectangle-2 {
+    font-size: 16px;
+    position: absolute;
+    width: 341px;
+    height: 196px;
+    left: 17px;
+    top: 356px;
+    background: #002984;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.sm-rectangle-3 {
+    font-size: 16px;
+    position: absolute;
+    width: 341px;
+    height: 196px;
+    left: 17px;
+    top: 569px;
+    background: #002984;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+    max-height: 96px;
+}
+
+.md-rectangle-1{
+    position: absolute;
+    width: 343px;
+    height: 343px;
+    left: 15px;
+    top: 72px;
+    background: #E0E0E0;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.md-rectangle-pict-1{
+    position: absolute;
+    width: 343px;
+    height: 343px;
+    left: 15px;
+    top: 72px;
+    background: url("image/user-md.png");
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.big-rectangle-pict {
+    
+    position: absolute;
+    width: 343px;
+    height: 579px;
+    left: 12px;
+    top: 72px;
+    background-image: url("image/user-potrait.png");
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+/*Button*/
+
+.button-rectangle-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 341px;
+    height: 40px;
+    left: 17px;
+    top: 449px;
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #006C84;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+
+.button-rectangle-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 341px;
+    height: 40px;
+    left: 17px;
+    top: 505px;
+    font-size: 16px;
+    color: white;
+    background: #006C84;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.button-full-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 375px;
+    height: 44px;
+    left: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    top: 623px;
+    max-width:100%;
+    background: #002984;
+    color: white;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+.button-full-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 375px;
+    height: 44px;
+    left: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    top: 623px;
+    max-width:100%;
+    background: #E0E0E0;
+
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+.button-full-container-2{
+    position: absolute;
+    width: 338px;
+    height: 40px;
+    left: 5px;
+    top: 540px;
+    color: white;
+    background: #002984;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+
+}    
+
+/* elements and asset*/
+
+.element-profile-1 {
+    position: absolute;
+    width: 289px;
+    height: 288px;
+    left: 28px;
+    top: 160px;
+    background-image: url("icon/icon-focus.png");
+}
+
+.element-profile-2{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 148px;
+    top: 500px;
+    background: #FFFFFF;
+    border-radius: 28px;
+}
+
